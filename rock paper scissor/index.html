@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="rps.js" defer></script>
+  </head>
+  <body>
+    <h1>Rock Paper Scissors Game</h1>
+    <p>Choose your move:</p>
+    <div class="buttons">
+      <!--- imgs from www.flaticon.com -->
+      <button id="rock">
+        <img src="assets/rock2.png" alt="rockImg" />
+      </button>
+      <button id="paper"><img src="assets/paper2.png" alt="paperImg" /></button>
+      <button id="scissors">
+        <img src="assets/scissors2.png" alt="scissorsImg" />
+      </button>
+    </div>
+    <p id="gameStatus"></p>
+    <p id="scores">
+      your score:
+      <span id="userScore">0</span>
+      computer score:
+      <span id="computerScore">0</span>
+    </p>
+  </body>
+</html>
